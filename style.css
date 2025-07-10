@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: purple;
+    color: white;
+    height: 60px;
+    padding: 10px 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.side-bar {
+    background-color: blue;
+    color: white;
+    width: 170px;
+    height: 100vh;
+    position: fixed;
+    top: 55px; 
+    left: 0;
+    padding: 25px 10px;
+}
+
+.main-content {
+    margin-left: 150px;
+    padding: 80px 20px 20px 20px;
+}
+
+.menu-side-bar{
+    margin-bottom: 25px;
+}
