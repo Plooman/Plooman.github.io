@@ -31,7 +31,7 @@ header {
     position: fixed;
     top: 55px; 
     left: 0;
-    padding: 25px 10px;
+    padding: 25px 0px;
 }
 
 .main-content {
@@ -41,4 +41,24 @@ header {
 
 .menu-side-bar{
     margin-bottom: 25px;
+    width: 100%;
+    padding: 20px;
+    cursor: pointer;
+}
+.menu-side-bar:hover{
+    background-color: rgb(61, 106, 240);
+}
+
+.profile-header{
+    background-color: aqua;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+
+.hidden{
+    display: none;
+}
+.menu-side-bar-selected{
+    background-color: rgb(73, 255, 255);
 }

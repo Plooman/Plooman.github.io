@@ -10,15 +10,23 @@
     <header>
         <div class="icon-menu">=</div>
         <div class="header-title">dashboard</div>
-        <div class="profile-header">Ploomain</div>
+        <div class="profile-header"></div>
     </header>
     <div class="side-bar">
-        <p class="menu-side-bar">Dashboard</p>
-        <p class="menu-side-bar">Work Pleace</p>
-        <p class="menu-side-bar">About Me</p>
+        <p class="menu-side-bar dashboard" onclick="showPage('dashboard')">Dashboard</p>
+        <p class="menu-side-bar work-pleace" onclick="showPage('work-pleace')">Work Pleace</p>
+        <p class="menu-side-bar about-me" onclick="showPage('about-me')">About Me</p>
     </div>
-    <div class="main-content">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis aperiam sapiente animi sit reprehenderit molestias! Impedit dicta a corporis ratione corrupti, odio fuga. Magnam hic quia cumque reiciendis consequatur? Nesciunt.</p>
+    <div class="main-content" >
+        <div class="dashboard-content">
+            <p>Halaman Dashboard</p>
+        </div>
+        <div class="work-pleace-content">
+            <p>Halaman Work Pleace</p>
+        </div>
+        <div class="about-me-content">
+            <p>Halaman About Me</p>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
