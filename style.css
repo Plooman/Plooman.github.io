@@ -33,9 +33,32 @@ header {
     left: 0;
     padding: 25px 0px;
 }
+@keyframes nutup_SideBar {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(-300px);
+    }
+}
+@keyframes buka_SideBar {
+    from {
+        transform: translateX(-300px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+.nutup-SideBar-animation {
+    animation: nutup_SideBar 0.3s forwards;
+}
+
+.buka-SideBar-animation {
+    animation: buka_SideBar 0.3s forwards;
+}
+
 
 .main-content {
-    margin-left: 150px;
     padding: 80px 20px 20px 20px;
 }
 
@@ -46,7 +69,38 @@ header {
     cursor: pointer;
 }
 .menu-side-bar:hover{
-    background-color: rgb(61, 106, 240);
+    background-color: rgb(73, 255, 255);
+}
+.icon-menu {
+    border-radius: 50px;
+    padding: 10px;
+}
+.menu{
+    width: 25px;
+    height: 25px;
+}
+
+@keyframes muter_kekanan{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(180deg);
+    }
+}
+.rotate-animation-kekanan{
+    animation: muter_kekanan 0.2s linear;
+}
+@keyframes muter_kekiri{
+    from{
+        transform: rotate(180deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+.rotate-animation-kekiri{
+    animation: muter_kekiri 0.2s linear;
 }
 
 .profile-header{
